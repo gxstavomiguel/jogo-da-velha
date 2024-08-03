@@ -1,0 +1,33 @@
+.square {
+    width: 34px;
+    height: 34px;
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .square.highlight {
+    background-color: yellow;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
